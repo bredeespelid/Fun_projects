@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C21BEF242ACA1BFA0040768A /* MicsterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21BEF232ACA1BFA0040768A /* MicsterApp.swift */; };
+		C21BEF262ACA1BFA0040768A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21BEF252ACA1BFA0040768A /* ContentView.swift */; };
+		C21BEF282ACA1BFD0040768A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21BEF272ACA1BFD0040768A /* Assets.xcassets */; };
+		C21BEF2B2ACA1BFD0040768A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21BEF2A2ACA1BFD0040768A /* Preview Assets.xcassets */; };
+		C21BEF352ACA1BFE0040768A /* MicsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21BEF342ACA1BFE0040768A /* MicsterTests.swift */; };
+		C21BEF3F2ACA1BFE0040768A /* MicsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21BEF3E2ACA1BFE0040768A /* MicsterUITests.swift */; };
+		C21BEF412ACA1BFE0040768A /* MicsterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21BEF402ACA1BFE0040768A /* MicsterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C21BEF312ACA1BFE0040768A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C21BEF182ACA1BFA0040768A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C21BEF1F2ACA1BFA0040768A;
+			remoteInfo = Micster;
+		};
+		C21BEF3B2ACA1BFE0040768A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C21BEF182ACA1BFA0040768A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C21BEF1F2ACA1BFA0040768A;
+			remoteInfo = Micster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C21BEF202ACA1BFA0040768A /* Micster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Micster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21BEF232ACA1BFA0040768A /* MicsterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicsterApp.swift; sourceTree = "<group>"; };
+		C21BEF252ACA1BFA0040768A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C21BEF272ACA1BFD0040768A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C21BEF2A2ACA1BFD0040768A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C21BEF302ACA1BFE0040768A /* MicsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21BEF342ACA1BFE0040768A /* MicsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicsterTests.swift; sourceTree = "<group>"; };
+		C21BEF3A2ACA1BFE0040768A /* MicsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21BEF3E2ACA1BFE0040768A /* MicsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicsterUITests.swift; sourceTree = "<group>"; };
+		C21BEF402ACA1BFE0040768A /* MicsterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicsterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C21BEF4D2ACA2DCC0040768A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C21BEF1D2ACA1BFA0040768A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21BEF2D2ACA1BFE0040768A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21BEF372ACA1BFE0040768A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C21BEF172ACA1BFA0040768A = {
+			isa = PBXGroup;
+			children = (
+				C21BEF222ACA1BFA0040768A /* Micster */,
+				C21BEF332ACA1BFE0040768A /* MicsterTests */,
+				C21BEF3D2ACA1BFE0040768A /* MicsterUITests */,
+				C21BEF212ACA1BFA0040768A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C21BEF212ACA1BFA0040768A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C21BEF202ACA1BFA0040768A /* Micster.app */,
+				C21BEF302ACA1BFE0040768A /* MicsterTests.xctest */,
+				C21BEF3A2ACA1BFE0040768A /* MicsterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C21BEF222ACA1BFA0040768A /* Micster */ = {
+			isa = PBXGroup;
+			children = (
+				C21BEF4D2ACA2DCC0040768A /* Info.plist */,
+				C21BEF232ACA1BFA0040768A /* MicsterApp.swift */,
+				C21BEF252ACA1BFA0040768A /* ContentView.swift */,
+				C21BEF272ACA1BFD0040768A /* Assets.xcassets */,
+				C21BEF292ACA1BFD0040768A /* Preview Content */,
+			);
+			path = Micster;
+			sourceTree = "<group>";
+		};
+		C21BEF292ACA1BFD0040768A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C21BEF2A2ACA1BFD0040768A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C21BEF332ACA1BFE0040768A /* MicsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				C21BEF342ACA1BFE0040768A /* MicsterTests.swift */,
+			);
+			path = MicsterTests;
+			sourceTree = "<group>";
+		};
+		C21BEF3D2ACA1BFE0040768A /* MicsterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C21BEF3E2ACA1BFE0040768A /* MicsterUITests.swift */,
+				C21BEF402ACA1BFE0040768A /* MicsterUITestsLaunchTests.swift */,
+			);
+			path = MicsterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C21BEF1F2ACA1BFA0040768A /* Micster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21BEF442ACA1BFE0040768A /* Build configuration list for PBXNativeTarget "Micster" */;
+			buildPhases = (
+				C21BEF1C2ACA1BFA0040768A /* Sources */,
+				C21BEF1D2ACA1BFA0040768A /* Frameworks */,
+				C21BEF1E2ACA1BFA0040768A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Micster;
+			productName = Micster;
+			productReference = C21BEF202ACA1BFA0040768A /* Micster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C21BEF2F2ACA1BFE0040768A /* MicsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21BEF472ACA1BFE0040768A /* Build configuration list for PBXNativeTarget "MicsterTests" */;
+			buildPhases = (
+				C21BEF2C2ACA1BFE0040768A /* Sources */,
+				C21BEF2D2ACA1BFE0040768A /* Frameworks */,
+				C21BEF2E2ACA1BFE0040768A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C21BEF322ACA1BFE0040768A /* PBXTargetDependency */,
+			);
+			name = MicsterTests;
+			productName = MicsterTests;
+			productReference = C21BEF302ACA1BFE0040768A /* MicsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C21BEF392ACA1BFE0040768A /* MicsterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21BEF4A2ACA1BFE0040768A /* Build configuration list for PBXNativeTarget "MicsterUITests" */;
+			buildPhases = (
+				C21BEF362ACA1BFE0040768A /* Sources */,
+				C21BEF372ACA1BFE0040768A /* Frameworks */,
+				C21BEF382ACA1BFE0040768A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C21BEF3C2ACA1BFE0040768A /* PBXTargetDependency */,
+			);
+			name = MicsterUITests;
+			productName = MicsterUITests;
+			productReference = C21BEF3A2ACA1BFE0040768A /* MicsterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C21BEF182ACA1BFA0040768A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C21BEF1F2ACA1BFA0040768A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					C21BEF2F2ACA1BFE0040768A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = C21BEF1F2ACA1BFA0040768A;
+					};
+					C21BEF392ACA1BFE0040768A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = C21BEF1F2ACA1BFA0040768A;
+					};
+				};
+			};
+			buildConfigurationList = C21BEF1B2ACA1BFA0040768A /* Build configuration list for PBXProject "Micster" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C21BEF172ACA1BFA0040768A;
+			productRefGroup = C21BEF212ACA1BFA0040768A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C21BEF1F2ACA1BFA0040768A /* Micster */,
+				C21BEF2F2ACA1BFE0040768A /* MicsterTests */,
+				C21BEF392ACA1BFE0040768A /* MicsterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C21BEF1E2ACA1BFA0040768A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21BEF2B2ACA1BFD0040768A /* Preview Assets.xcassets in Resources */,
+				C21BEF282ACA1BFD0040768A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21BEF2E2ACA1BFE0040768A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21BEF382ACA1BFE0040768A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C21BEF1C2ACA1BFA0040768A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21BEF262ACA1BFA0040768A /* ContentView.swift in Sources */,
+				C21BEF242ACA1BFA0040768A /* MicsterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21BEF2C2ACA1BFE0040768A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21BEF352ACA1BFE0040768A /* MicsterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21BEF362ACA1BFE0040768A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21BEF412ACA1BFE0040768A /* MicsterUITestsLaunchTests.swift in Sources */,
+				C21BEF3F2ACA1BFE0040768A /* MicsterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C21BEF322ACA1BFE0040768A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C21BEF1F2ACA1BFA0040768A /* Micster */;
+			targetProxy = C21BEF312ACA1BFE0040768A /* PBXContainerItemProxy */;
+		};
+		C21BEF3C2ACA1BFE0040768A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C21BEF1F2ACA1BFA0040768A /* Micster */;
+			targetProxy = C21BEF3B2ACA1BFE0040768A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C21BEF422ACA1BFE0040768A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C21BEF432ACA1BFE0040768A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C21BEF452ACA1BFE0040768A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Micster/Preview Content\"";
+				DEVELOPMENT_TEAM = 57UB52F2SJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Micster/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Micster;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.park-oslo.Micster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C21BEF462ACA1BFE0040768A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Micster/Preview Content\"";
+				DEVELOPMENT_TEAM = 57UB52F2SJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Micster/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Micster;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.park-oslo.Micster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C21BEF482ACA1BFE0040768A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57UB52F2SJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.park-oslo.MicsterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Micster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Micster";
+			};
+			name = Debug;
+		};
+		C21BEF492ACA1BFE0040768A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57UB52F2SJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.park-oslo.MicsterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Micster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Micster";
+			};
+			name = Release;
+		};
+		C21BEF4B2ACA1BFE0040768A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57UB52F2SJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.park-oslo.MicsterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Micster;
+			};
+			name = Debug;
+		};
+		C21BEF4C2ACA1BFE0040768A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57UB52F2SJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.park-oslo.MicsterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Micster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C21BEF1B2ACA1BFA0040768A /* Build configuration list for PBXProject "Micster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21BEF422ACA1BFE0040768A /* Debug */,
+				C21BEF432ACA1BFE0040768A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C21BEF442ACA1BFE0040768A /* Build configuration list for PBXNativeTarget "Micster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21BEF452ACA1BFE0040768A /* Debug */,
+				C21BEF462ACA1BFE0040768A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C21BEF472ACA1BFE0040768A /* Build configuration list for PBXNativeTarget "MicsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21BEF482ACA1BFE0040768A /* Debug */,
+				C21BEF492ACA1BFE0040768A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C21BEF4A2ACA1BFE0040768A /* Build configuration list for PBXNativeTarget "MicsterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21BEF4B2ACA1BFE0040768A /* Debug */,
+				C21BEF4C2ACA1BFE0040768A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C21BEF182ACA1BFA0040768A /* Project object */;
+}
