@@ -1,0 +1,26 @@
+import requests
+import urllib.parse
+import time
+
+def get_coordinates(address, kommune, land="Norge"):
+    full_adresse = f"{address}, {kommune}, {land}"
+    url = 'https://nominatim.openstreetmap.org/search?q=' + urllib.parse.quote(full_adresse) + '&format=json'
+    
+    response = requests.get(url).json()
+    if response:
+        return float(response[0]['lat']), float(response[0]['lon'])
+    else:
+        return None, None
+
+# Antar at global_df allerede eksisterer
+addresses_and_communes = example[['Adresse Underenhet', 'Kommune Underenhet']].values.tolist()
+
+for address, kommune in addresses_and_communes:
+    lat, lon = get_coordinates(address, kommune)
+    if lat is not None and lon is not None:
+        print(f"Adresse: {address}, Kommune: {kommune}")
+        print(f"Latitude: {lat}, Longitude: {lon}")
+    else:
+        print(f"Ingen koordinater funnet for {address}, {kommune}")
+    print("-" * 50)  # Skillelinje for bedre lesbarhet
+    time.sleep(1)  # For å unngå å overbelaste API-en

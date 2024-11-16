@@ -1,0 +1,88 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage[margin=1in]{geometry}
+\usepackage{tocloft}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{tocloft}
+\usepackage{etoolbox}
+
+\setlength{\cftbeforesecskip}{40pt}
+\setlength{\cftbeforesubsecskip}{15pt}
+\setlength{\cftbeforesubsubsecskip}{3pt}
+
+\renewcommand{\cftsecleader}{\cftdotfill{\cftsecdotsep}}
+\renewcommand{\cftsubsecleader}{\cftdotfill{\cftsubsecdotsep}}
+\renewcommand{\cftsubsubsecleader}{\cftdotfill{\cftsubsubsecdotsep}}
+
+
+\makeatletter
+\patchcmd{\l@section}{%
+  \hfil
+  \hb@xt@\@pnumwidth{\hss #2}%
+}{%
+  \leaders\hbox{\rule[.5ex]{1pt}{.4pt}}\hfill
+  \hb@xt@\@pnumwidth{#2\hss}%
+}{}{}
+\makeatother
+
+
+\title{\textbf{Termpaper}}
+\author{}
+\date{}
+
+\begin{document}
+
+
+
+   { \centering
+    \vspace*{1cm}
+    
+    {\Huge\bfseries Termpaper\par}
+    \vspace{3cm}
+    
+   
+   
+    
+    
+   
+    
+     \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.5\linewidth]{Nhh logo.png}
+    
+    \end{figure}
+
+     {\Large\bfseries Transforming Business with AI: The Power of Large Language Models\par}
+    \vspace{1.5cm}
+
+    {\Large Group: ...\par}
+    \vspace{1.5cm}
+    
+    {\large
+
+
+
+        
+    \begin{tabular}{r l}
+    Handed out: & September 16, 2024 \\
+    Deadline: & September 24, 2024 \\
+    \end{tabular}\par}
+    \vspace{2cm}
+}
+     
+   
+
+    \vfill
+
+\pagenumbering{gobble}
+
+\setcounter{tocdepth}{2}
+\newpage
+\tableofcontents
+
+
+\end{document}
