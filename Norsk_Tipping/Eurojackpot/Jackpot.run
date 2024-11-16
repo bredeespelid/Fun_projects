@@ -1,0 +1,6 @@
+reset;
+model Jackpot.mod;
+data Jackpot.dat;
+option solver gurobi;
+solve;
+display Next_Hovedtall, Next_Stjernetall;
